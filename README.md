@@ -1,5 +1,5 @@
 # Case Study: Dribble Clone
-## Date:
+## Date:02-04-2026
 
 ## AIM:
 To create a simplified clone of Dribbble (https://dribbble.com/) landing page.
