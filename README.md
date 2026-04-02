@@ -38,10 +38,136 @@ Create a footer with your name and register number.
 Publish the website in the LocalHost.
 
 ## PROGRAM :
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CAMU Schedule</title>
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+        body {
+            background-color: #f2f2f2;
+        }
+        .table th, .table td {
+            text-align: center;
+        }
+        .lunch {
+            background-color: #dff0d8;
+            font-weight: bold;
+        }
+        .header {
+            background-color: rgb(24, 22, 155);
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="text-center">
+        <img src="image.png" class="img-responsive center-block" style="max-width:350px;">
+    </div>
+
+    <h2 class="text-center"><b>SLOT TIME TABLE - IRAIARUL (25012197)</b></h2>
+
+    <!-- Responsive Table -->
+    <div class="table-responsive">
+        <table class="table table-bordered table-striped table-hover">
+
+            <thead class="header">
+                <tr>
+                    <th>Day / Time</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>8 - 10</td>
+                    <td>Web</td>
+                    <td>C Prog</td>
+                    <td>Web</td>
+                    <td>--</td>
+                    <td>Web</td>
+                    <td>--</td>
+                </tr>
+
+                <tr>
+                    <td>10 - 12</td>
+                    <td>C Programming</td>
+                    <td>Web</td>
+                    <td>Nil</td>
+                    <td>Nil</td>
+                    <td>C Programming</td>
+                    <td>Web</td>
+                </tr>
+
+                <tr class="lunch">
+                    <td>12 - 1</td>
+                    <td colspan="6">LUNCH BREAK</td>
+                </tr>
+
+                <tr>
+                    <td>1 - 3</td>
+                    <td>Nil</td>
+                    <td>Nil</td>
+                    <td>Mentor</td>
+                    <td>C Programming</td>
+                    <td>Nil</td>
+                    <td>C Programming</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+
+    <br>
+
+    <h3>Subjects</h3>
+    <table class="table table-bordered table-striped">
+        <thead class="bg-primary">
+            <tr>
+                <th>S.No</th>
+                <th>Code</th>
+                <th>Subject</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>19AI414</td>
+                <td>Fundamentals of Web App Development</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>19AI304</td>
+                <td>Fundamentals of C Programming</td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
+
+</body>
+</html>
+```
 
 ## OUTPUT:
-
-
+![alt text](image-1.png)
+![alt text](image-2.png)
 ## RESULT:
 The project for responsive web design in creating a clone of dribble.com is completed successfully.
